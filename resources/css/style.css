@@ -1,0 +1,90 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+.img-custom{
+
+  width: 50em;
+  height: 30em;
+}
+
+.button_role{
+  background: var(--color-primary);
+  border: 0;
+  padding: 10px 20px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.button_read{
+  background: #BACDD9;
+  border: 0;
+  padding: 10px 20px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.button_edit{
+  background: #657351 !important;
+  border: 0;
+  padding: 10px 20px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.button_update{
+  background: #034023 !important;
+  border: 0;
+  padding: 10px 20px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.button_delete{
+  background: #8c162c !important;
+  border: 0;
+  padding: 10px 20px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.button-logout{
+  font-size: 15px;
+  text-transform: none;
+  font-weight: 400;
+  color: #8C162B;
+}
+
+.author_color{
+
+  color: #8C162B;
+}
+
+.tags_color{
+
+  color: #034023;
+
+}
+
+.category_color{
+
+  color: #034023;
+}
+
+
+ @media (min-width: 1250px) {
+  .nav-drop{
+    display: none;
+  }
+}
+
+
